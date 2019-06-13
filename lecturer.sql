@@ -1,11 +1,11 @@
-create lecturer(
-  id int(11) NOT NULL,
-  name varchar（255） NOT NULL,
-  password varchar（255）NOT NULL,
-  phone varchar（255）NOT NULL,
-  qualified Boolean NOT NULL,
-  community varchar（255） NOT NULL,
-  credits int(11) DEFAULT 0,
-  resume varchar（255） NOT NULL,
+CREATE TABLE lecturer(
+  id INT(11) NOT NULL,
+  NAME VARCHAR(255)NOT NULL,
+  PASSWORD VARCHAR(255)NOT NULL,
+  phone VARCHAR(255)NOT NULL,
+  qualified BOOLEAN NOT NULL,
+  community VARCHAR(255) NOT NULL,
+  credits INT(11) DEFAULT 0,
+  RESUME VARCHAR(255) NOT NULL,
   PRIMARY KEY(id)
 )
