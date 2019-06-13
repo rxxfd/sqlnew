@@ -1,9 +1,9 @@
-create table student( 
-  id int(11) NOT NULL NUIQUE,
-  name varchar(255) NOT NULL,
-  password int(11) NOT NULL,
-  credits int(11) DEFAULT 0,
-  phone varchar(255) NOT NULL,
-  address varchar(244) NOT NULL,
+CREATE TABLE student( 
+  id INT(11) NOT NULL UNIQUE,
+  NAME VARCHAR(255) NOT NULL,
+  PASSWORD INT(11) NOT NULL,
+  credits INT(11) DEFAULT 0,
+  phone VARCHAR(255) NOT NULL,
+  address VARCHAR(244) NOT NULL,
   PRIMARY KEY(id)
 )
